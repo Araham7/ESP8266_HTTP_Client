@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 
 // Wi-Fi credentials :
-const char* ssid = "Laptop";
-const char* password = "8918172922";
+const char* ssid = "<your-hotspot-name>";
+const char* password = "your-hotspot-password";
 
 // Server URL :
-const char* serverUrl = "http://localhost:9986/";
+const char* serverUrl = "<URLwhere-you-want-to-request>";
 
 void setup() {
   Serial.begin(9600);

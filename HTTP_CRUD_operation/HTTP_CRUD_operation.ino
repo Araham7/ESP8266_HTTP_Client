@@ -2,12 +2,12 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 
-// Wi-Fi credentials
-const char* ssid = "Your_SSID";
-const char* password = "Your_PASSWORD";
+// Wi-Fi credentials :
+const char* ssid = "<your-hotspot-name>";
+const char* password = "your-hotspot-password";
 
-// Server URL
-const char* serverUrl = "http://example.com/api/resource";
+// Server URL :
+const char* serverUrl = "<URLwhere-you-want-to-request>";
 
 void setup() {
   Serial.begin(9600);
