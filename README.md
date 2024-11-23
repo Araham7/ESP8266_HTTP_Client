@@ -44,5 +44,7 @@ if (httpCode > 0) {
     Serial.println("Error in GET request");  
 }  
 http.end();  
-
 ```
+
+# License
+This project is licensed under the GNU License - see the LICENSE file for details.
